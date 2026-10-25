@@ -1,0 +1,14 @@
+{
+  "name": "math-hero",
+  "version": "0.1.0",
+  "description": "Game petualangan matematika kelas 1-3 SD, dimainkan di Chrome HP via LAN",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test:smoke": "python tests/smoke_t1.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
